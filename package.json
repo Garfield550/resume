@@ -1,16 +1,18 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "garfield-lee-resume",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Garfield Lee's resume.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Garfield Lee <me@550.moe>",
   "dependencies": {
     "gatsby": "^2.17.11",
     "gatsby-image": "^2.2.31",
+    "gatsby-plugin-canonical-urls": "^2.1.14",
     "gatsby-plugin-manifest": "^2.2.27",
     "gatsby-plugin-offline": "^3.0.19",
     "gatsby-plugin-react-helmet": "^3.1.14",
     "gatsby-plugin-sharp": "^2.2.37",
+    "gatsby-plugin-typescript": "^2.1.16",
     "gatsby-source-filesystem": "^2.1.36",
     "gatsby-transformer-sharp": "^2.3.3",
     "prop-types": "^15.7.2",
@@ -19,16 +21,37 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "@babel/core": "^7.7.2",
+    "@types/node": "^12.12.7",
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-helmet": "^5.0.14",
+    "@typescript-eslint/eslint-plugin": "^2.7.0",
+    "@typescript-eslint/parser": "^2.7.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "graphql": "^14.5.8",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
   },
   "keywords": [
+    "resume",
     "gatsby"
   ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
+    "check": "tsc",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "format": "prettier --write '**/*.{ts,tsx,md}'",
+    "lint": "eslint 'src/**/*.{ts,tsx}'",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
@@ -36,9 +59,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/Garfield550/resume"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/Garfield550/resume/issues"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "prettier --write",
+      "git add"
+    ],
+    "*.{json,scss,html,md}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
