@@ -1,11 +1,26 @@
+const path = require('path');
+
 module.exports = {
   siteMetadata: {
     title: `Garfield Lee's resume`,
     description: `Garfield Lee's resume.`,
     author: '@Garfield550',
+    url: 'https://resume.550.moe',
   },
   plugins: [
-    'gatsby-plugin-sass',
+    {
+      resolve: 'gatsby-plugin-sass',
+      options: {
+        implementation: require('sass'),
+        includePaths: [path.resolve(__dirname, 'node_modules')],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-sass-resources',
+      options: {
+        resources: ['./src/styles/global.scss'],
+      },
+    },
     'gatsby-plugin-typescript',
     'gatsby-plugin-react-helmet',
     {
