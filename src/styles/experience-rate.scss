@@ -1,0 +1,22 @@
+.re--experience-rate {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: carbon--rem(24px);
+  &--title {
+    @include carbon--type-style('body-long-01');
+    margin-right: carbon--rem(4px);
+  }
+  &--info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-left: auto;
+  }
+  &--desc {
+    @include carbon--type-style('body-long-01');
+    margin-left: carbon--rem(4px);
+  }
+}

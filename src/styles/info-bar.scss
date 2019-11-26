@@ -1,0 +1,16 @@
+.re--info-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: carbon--rem(24px);
+  &--title {
+    @include carbon--type-style('body-long-01');
+    margin-left: carbon--rem(4px);
+    margin-right: carbon--rem(4px);
+  }
+  &--content {
+    @include carbon--type-style('body-long-01');
+    text-decoration: none;
+  }
+}

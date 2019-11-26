@@ -1,0 +1,40 @@
+.re--card {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  background-color: $ui-01;
+  &-title {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    &--heading-clip {
+      text-overflow: clip;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    &--productive-heading {
+      @include carbon--type-style('productive-heading-05');
+      &-small {
+        @include carbon--type-style('productive-heading-01');
+      }
+    }
+    &--heading {
+      @include carbon--type-style('productive-heading-03');
+    }
+    &--caption,
+    &--caption-small {
+      color: $text-03;
+      @include carbon--type-style('label-01');
+    }
+  }
+  &-content {
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    @include carbon--type-style('body-long-01');
+  }
+}
