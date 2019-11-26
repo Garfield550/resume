@@ -34,7 +34,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   return (
     <>
-      <Header>
+      <Header aria-label={data.site.siteMetadata.title}>
         <HeaderName href='/' prefix=''>
           {data.site.siteMetadata.title}
         </HeaderName>

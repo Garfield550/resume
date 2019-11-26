@@ -24,39 +24,45 @@ export type ColumnClass = {
 
 interface ColumnProps {
   className?: string;
-  /** Specify a class name for row */
   children?: React.ReactNode;
-  /** Specify a no-gutter class */
-  noGutter?: NoGutterClass;
-  /** Specify a no-gutter-left class */
-  noGutterLeft?: NoGutterLeftClass;
   /** Specify the col offset */
   offset?: OffsetClass;
   /** Specify the col width */
   column?: ColumnClass;
+  /**
+   * Specify a no-gutter class
+   * @default false
+   */
+  noGutter?: boolean;
+  /**
+   * Specify a no-gutter-left class
+   * @default false
+   */
+  noGutterLeft?: boolean;
+  /**
+   * Specify a no-gutter-right class
+   * @default false
+   */
+  noGutterRight?: boolean;
 }
 
 const Column: React.FC<ColumnProps> = ({
   className,
   children,
-  noGutter,
-  noGutterLeft,
   offset,
   column,
+  noGutter = false,
+  noGutterLeft = false,
+  noGutterRight = false,
 }) => {
-  const noGutterClass = noGutter && {
-    'bx--no-gutter-sm': noGutter.sm,
-    'bx--no-gutter-md': noGutter.md,
-    'bx--no-gutter-lg': noGutter.lg,
-    'bx--no-gutter-xl': noGutter.xl,
-    'bx--no-gutter-max': noGutter.max,
+  const noGutterClass = {
+    'bx--no-gutter': noGutter,
   };
-  const noGutterLeftClass = noGutterLeft && {
-    'bx--no-gutter-sm--left': noGutterLeft.sm,
-    'bx--no-gutter-md--left': noGutterLeft.md,
-    'bx--no-gutter-lg--left': noGutterLeft.lg,
-    'bx--no-gutter-xl--left': noGutterLeft.xl,
-    'bx--no-gutter-max--left': noGutterLeft.max,
+  const noGutterLeftClass = {
+    'bx--no-gutter--left': noGutterLeft,
+  };
+  const noGutterRightClass = {
+    'bx--no-gutter--right': noGutterRight,
   };
   const offsetClass = offset && {
     [`bx--offset-sm-${offset.sm}`]: offset.sm,
@@ -65,19 +71,25 @@ const Column: React.FC<ColumnProps> = ({
     [`bx--offset-xl-${offset.xl}`]: offset.xl,
     [`bx--offset-max-${offset.max}`]: offset.max,
   };
-  const columnClass = column && {
-    [`bx--col-sm-${column.sm}`]: column.sm,
-    [`bx--col-md-${column.md}`]: column.md,
-    [`bx--col-lg-${column.lg}`]: column.lg,
-    [`bx--col-xl-${column.xl}`]: column.xl,
-    [`bx--col-lg-${column.max}`]: column.max,
+  const defaultColumnClass = {
+    'bx--col': true,
   };
+  const columnClass = column
+    ? {
+        [`bx--col-sm-${column.sm}`]: column.sm,
+        [`bx--col-md-${column.md}`]: column.md,
+        [`bx--col-lg-${column.lg}`]: column.lg,
+        [`bx--col-xl-${column.xl}`]: column.xl,
+        [`bx--col-lg-${column.max}`]: column.max,
+      }
+    : defaultColumnClass;
   const colClass = classNames(
     {
       ...columnClass,
       ...offsetClass,
       ...noGutterClass,
       ...noGutterLeftClass,
+      ...noGutterRightClass,
     },
     className
   );
@@ -86,28 +98,14 @@ const Column: React.FC<ColumnProps> = ({
 };
 
 Column.defaultProps = {
-  column: {
-    lg: 12,
-  },
+  noGutter: false,
+  noGutterLeft: false,
+  noGutterRight: false,
 };
 
 Column.propTypes = {
   className: PropTypes.string,
   children: PropTypes.node,
-  noGutter: PropTypes.shape({
-    sm: PropTypes.bool,
-    md: PropTypes.bool,
-    lg: PropTypes.bool,
-    xl: PropTypes.bool,
-    max: PropTypes.bool,
-  }),
-  noGutterLeft: PropTypes.shape({
-    sm: PropTypes.bool,
-    md: PropTypes.bool,
-    lg: PropTypes.bool,
-    xl: PropTypes.bool,
-    max: PropTypes.bool,
-  }),
   offset: PropTypes.shape({
     sm: PropTypes.number,
     md: PropTypes.number,
@@ -122,6 +120,9 @@ Column.propTypes = {
     xl: PropTypes.number,
     max: PropTypes.number,
   }),
+  noGutter: PropTypes.bool,
+  noGutterLeft: PropTypes.bool,
+  noGutterRight: PropTypes.bool,
 };
 
 export default Column;
