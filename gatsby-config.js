@@ -9,6 +9,14 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        typekit: {
+          id: 'itm4vxb',
+        },
+      },
+    },
+    {
       resolve: 'gatsby-plugin-sass',
       options: {
         implementation: require('sass'),

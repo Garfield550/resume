@@ -1,1 +1,32 @@
 @import '~carbon-components/scss/globals/scss/vars';
+@import '~carbon-components/scss/globals/scss/mixins';
+
+$carbon--theme: $carbon--theme--g10;
+@include carbon--theme();
+
+/// @type Map
+/// @access public
+/// @group @carbon/type
+$heading-03: (
+  font-size: carbon--type-scale(5),
+  font-weight: carbon--font-weight('regular'),
+  line-height: carbon--rem(24px),
+  letter-spacing: 0,
+) !default;
+
+/// @type Map
+/// @access public
+/// @group @carbon/type
+$added-tokens: (
+  heading-03: $heading-03,
+);
+
+$font-families: (
+  'sans':
+    unquote(
+      "'IBM Plex Sans', 'Helvetica Neue', Arial, source-han-sans-simplified-c, sans-serif"
+    ),
+);
+
+$tokens: map-merge($tokens, $added-tokens);
+$carbon--font-families: map-merge($carbon--font-families, $font-families);

@@ -1,5 +1,12 @@
-@import '~carbon-components/scss/globals/scss/styles.scss';
-
 $feature-flags: (
   ui-shell: true,
+  grid-columns-16: true,
 );
+
+@import '~carbon-components/scss/globals/scss/styles.scss';
+@import '~carbon-components/scss/globals/grid/grid';
+
+body {
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial,
+    source-han-sans-simplified-c, sans-serif !important;
+}
