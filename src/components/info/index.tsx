@@ -13,6 +13,11 @@ interface InfoProps {
   content?: string;
   /** Content link */
   href?: string;
+  /**
+   * Is external link
+   * @default false
+   */
+  isExternal?: boolean;
 }
 
 const Info: React.FC<InfoProps> = ({
@@ -21,6 +26,7 @@ const Info: React.FC<InfoProps> = ({
   title,
   content,
   href = '',
+  isExternal = false,
 }) => {
   const rootClass = classNames('re--info-bar', className);
   return (
@@ -31,7 +37,10 @@ const Info: React.FC<InfoProps> = ({
         <span className='re--info-bar--content'>{content}</span>
       )}
       {content && href && (
-        <a className='re--info-bar--content' href={href}>
+        <a
+          className='re--info-bar--content'
+          href={href}
+          target={isExternal ? '_blank' : '_self'}>
           {content}
         </a>
       )}
@@ -41,6 +50,7 @@ const Info: React.FC<InfoProps> = ({
 
 Info.defaultProps = {
   href: '',
+  isExternal: false,
 };
 
 Info.propTypes = {
@@ -49,6 +59,7 @@ Info.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
   href: PropTypes.string,
+  isExternal: PropTypes.bool,
 };
 
 export default Info;
