@@ -40,7 +40,8 @@ const Info: React.FC<InfoProps> = ({
         <a
           className='re--info-bar--content'
           href={href}
-          target={isExternal ? '_blank' : '_self'}>
+          target={isExternal ? '_blank' : '_self'}
+          rel={isExternal ? 'noopener noreferrer' : ''}>
           {content}
         </a>
       )}
