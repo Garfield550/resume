@@ -6,6 +6,6 @@ $feature-flags: (
 @import './carbon-style.scss';
 
 body {
-  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial,
-    source-han-sans-simplified-c, sans-serif !important;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, 'PingFang SC',
+    'Noto Sans SC', 'Noto Sans CJK SC', 'Source Han Sans SC', sans-serif !important;
 }
