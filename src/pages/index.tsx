@@ -21,6 +21,7 @@ import {
   Card,
   Info,
   ExperienceRate,
+  Footer,
 } from '../components';
 
 export default class IndexPage extends React.Component {
@@ -61,13 +62,15 @@ export default class IndexPage extends React.Component {
                 <Info
                   title='GitHub'
                   content='@Garfield550'
-                  href='https://github.com/Garfield550'>
+                  href='https://github.com/Garfield550'
+                  isExternal>
                   <LogoGithub16 />
                 </Info>
                 <Info
                   title='Linkedin'
                   content='Garfield Lee'
-                  href='https://www.linkedin.com/in/garfieldlee/'>
+                  href='https://www.linkedin.com/in/garfieldlee/'
+                  isExternal>
                   <LogoLinkedin16 />
                 </Info>
               </Card>
@@ -86,6 +89,11 @@ export default class IndexPage extends React.Component {
               </Card>
             </Column>
             <Column column={{ lg: 11 }}>Text</Column>
+          </Row>
+          <Row>
+            <Column>
+              <Footer />
+            </Column>
           </Row>
         </Grid>
       </Layout>
