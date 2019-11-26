@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: `Garfield Lee's resume`,
     description: `Garfield Lee's resume.`,
-    author: '@Garfield550',
+    author: 'Garfield Lee',
     url: 'https://resume.550.moe',
   },
   plugins: [
