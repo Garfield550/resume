@@ -49,10 +49,10 @@ module.exports = {
         name: `Garfield Lee's resume`,
         short_name: 'Garfield550 Resume',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#161616',
+        theme_color: '#161616',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png',
+        icon: 'src/images/icons8-resume_website.png',
       },
     },
     {
