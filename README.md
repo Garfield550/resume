@@ -7,6 +7,8 @@
   Garfield Lee's resume
 </h1>
 
+Built with [Carbon Design System](https://www.carbondesignsystem.com/) and [Gatsby](Built with Carbon Design System and Gatsby, hosted on GitHub Pages.), hosted on [GitHub Pages](https://pages.github.com/).
+
 ```text
 The MIT License (MIT)
 
