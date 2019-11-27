@@ -10,6 +10,7 @@ export { default as Image } from './image';
 export { default as Info } from './info';
 export { default as JobInfo } from './job-info';
 export { default as Layout } from './layout';
+export { default as ProjectInfo } from './project-info';
 export { default as Rate } from './rate';
 export { default as SEO } from './seo';
 export { default as WorkInfo } from './work-info';

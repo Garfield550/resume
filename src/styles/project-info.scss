@@ -1,0 +1,22 @@
+.re--project-info {
+  margin-bottom: carbon--rem(20px);
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+  &--name {
+    @include carbon--type-style('productive-heading-02');
+    display: inline-block;
+    margin-bottom: carbon--rem(6px);
+    // text-decoration: none;
+    color: $text-01;
+  }
+  &--desc {
+    @include carbon--type-style('body-long-01');
+    display: inline-block;
+    color: $text-02;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
