@@ -23,6 +23,7 @@ import {
   ExperienceRate,
   Footer,
   JobInfo,
+  ProjectInfo,
 } from '../components';
 
 import { JobInfoProps } from '../components/job-info';
@@ -145,7 +146,54 @@ export default class IndexPage extends React.Component {
                   );
                 })}
               </Card>
-              <Card title='参与开源'></Card>
+              <Card title='参与开源'>
+                <ProjectInfo
+                  name='NervJS/Taro'
+                  href='https://github.com/NervJS/taro/commits?author=Garfield550'>
+                  Taro 是由京东凹凸实验室开发的多端统一开发框架。自使用 Taro
+                  开发以来，多次为 Taro
+                  项目修复问题，完善文档，并积极帮助他人解决问题。
+                </ProjectInfo>
+                <ProjectInfo
+                  name='NervJS/Taro UI'
+                  href='https://github.com/NervJS/taro-ui/commits?author=Garfield550'>
+                  Taro UI 是一款基于 Taro 框架开发的多端 UI 组件库。由于在 Taro
+                  社区积极贡献，被邀请加入 Taro UI 项目进行日常维护和功能更新。
+                </ProjectInfo>
+                <ProjectInfo
+                  name='MvvmCross/MvvmCross'
+                  href='https://github.com/MvvmCross/MvvmCross/commits?author=Garfield550'>
+                  MvvmCross 是一款使用 C# 编写的跨平台 MVVM 框架，几乎横跨所有
+                  .Net 开发平台。2017
+                  年接触该框架时，由于其文档站显示效果不佳，移动设备布局混乱，便主动为他们重构了
+                  <a
+                    href='https://github.com/MvvmCross/MvvmCross/pull/1852'
+                    target='_blank'
+                    rel='noopener noreferrer'>
+                    首页和文档站
+                  </a>
+                  ，后续又为他们构建了{' '}
+                  <a
+                    href='https://github.com/MvvmCross/MvvmCross/pull/2111'
+                    target='_blank'
+                    rel='noopener noreferrer'>
+                    Hackfest 2017 活动宣传页
+                  </a>
+                  。
+                </ProjectInfo>
+                <ProjectInfo
+                  name='AOSC-Dev/aosc-os-abbs'
+                  href='https://github.com/AOSC-Dev/aosc-os-abbs/commits?author=Garfield550'>
+                  AOSC OS 是由一群国内年轻 Linux 开发者创造的 GNU/Linux
+                  发行版，主打开发者友好和旧设备兼容。我为他们维护过一段时间的软件包更新。
+                </ProjectInfo>
+                <ProjectInfo
+                  name='WeCase/wecase.github.com'
+                  href='https://github.com/WeCase/wecase.github.com'>
+                  WeCase 是一款 Linux 下易用的微博客户端(2017
+                  年已停止开发)。我为他们的官网贡献过代码。
+                </ProjectInfo>
+              </Card>
               <Card title='教育经历'></Card>
             </Column>
           </Row>
