@@ -1,0 +1,10 @@
+.re--work-info {
+  &--name {
+    @include carbon--type-style('productive-heading-01');
+    margin-bottom: carbon--rem(4px);
+  }
+  &--desc {
+    @include carbon--type-style('body-long-01');
+    color: $text-02;
+  }
+}

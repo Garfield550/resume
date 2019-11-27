@@ -1,0 +1,30 @@
+.re--job-info {
+  margin-bottom: carbon--rem(20px);
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+  &--jobs {
+    margin-bottom: carbon--rem(10px);
+  }
+  &--job-title {
+    @include carbon--type-style('productive-heading-02');
+    margin-bottom: carbon--rem(6px);
+  }
+  &--job-desc {
+    @include carbon--type-style('label-01');
+    color: $text-05;
+  }
+  &--job-time {
+    margin-left: carbon--rem(8px);
+  }
+  &--works {
+    margin-left: carbon--rem(20px);
+    margin-right: carbon--rem(20px);
+  }
+  &--work-info {
+    margin-bottom: carbon--rem(10px);
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+}
