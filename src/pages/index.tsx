@@ -24,6 +24,7 @@ import {
   Footer,
   JobInfo,
   ProjectInfo,
+  EducationalInfo,
 } from '../components';
 
 import { JobInfoProps } from '../components/job-info';
@@ -194,7 +195,16 @@ export default class IndexPage extends React.Component {
                   年已停止开发)。我为他们的官网贡献过代码。
                 </ProjectInfo>
               </Card>
-              <Card title='教育经历'></Card>
+              <Card title='教育经历'>
+                <EducationalInfo
+                  name='山东信息职业技术学院'
+                  grade='全日制大学专科'
+                  major='软件工程'
+                  minor='Web 前端'
+                  startTime='2015 年 8 月'
+                  endTime='2018 年 7 月'
+                />
+              </Card>
             </Column>
           </Row>
           <Row>
