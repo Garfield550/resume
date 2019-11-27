@@ -1,4 +1,4 @@
-name: Build site
+name: Build resume site
 
 on:
   push:
@@ -31,7 +31,7 @@ jobs:
       - name: Build site
         run: yarn run build
 
-  depoly-site:
+  deploy-site:
     needs: build-site
     runs-on: ubuntu-latest
     strategy:
@@ -50,11 +50,11 @@ jobs:
         run: yarn install
       - name: Build site
         run: yarn run build
-      - name: Depoly to gh-pages
+      - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v2.5.1
         env:
           CI: true
-          PERSONAL_TOKEN: ${{ secrets.DEPOLY_TOKEN }}
+          PERSONAL_TOKEN: ${{ secrets.DEPLOY_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: ./public
         with:
