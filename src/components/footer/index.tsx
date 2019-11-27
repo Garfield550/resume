@@ -42,6 +42,13 @@ const Footer: React.FC = () => {
         rel='noopener noreferrer'>
         Gatsby
       </a>
+      , hosted on{' '}
+      <a
+        href='https://pages.github.com/'
+        target='_blank'
+        rel='noopener noreferrer'>
+        GitHub Pages
+      </a>
       .
     </footer>
   );
