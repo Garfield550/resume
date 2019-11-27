@@ -1,0 +1,61 @@
+name: Build site
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build-site:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [8.x, 10.x, 12.x]
+    steps:
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Setup Yarn
+        run: npm install -g yarn
+      - name: Checkout codes
+        uses: actions/checkout@v1
+      - name: Install dependencies
+        run: yarn install
+      - name: Lint code
+        run: yarn run lint
+      - name: Check TypeScrips typings
+        run: yarn run check
+      - name: Run test
+        run: yarn run test
+      - name: Build site
+        run: yarn run build
+
+  depoly-site:
+    needs: build-site
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [12.x]
+    steps:
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Setup Yarn
+        run: npm install -g yarn
+      - name: Checkout codes
+        uses: actions/checkout@v1
+      - name: Install dependencies
+        run: yarn install
+      - name: Build site
+        run: yarn run build
+      - name: Depoly to gh-pages
+        uses: peaceiris/actions-gh-pages@v2.5.1
+        env:
+          CI: true
+          PERSONAL_TOKEN: ${{ secrets.DEPOLY_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: ./public
+        with:
+          emptyCommits: false

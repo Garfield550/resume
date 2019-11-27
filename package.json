@@ -2,7 +2,7 @@
   "name": "garfield-lee-resume",
   "private": true,
   "description": "Garfield Lee's resume.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "Garfield Lee <me@550.moe>",
   "dependencies": {
     "@carbon/icons-react": "^10.6.1",
@@ -72,7 +72,7 @@
     "start": "yarn run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 0"
   },
   "repository": {
     "type": "git",
