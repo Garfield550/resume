@@ -1,0 +1,25 @@
+.re--educational-info {
+  margin-bottom: carbon--rem(20px);
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+  &--name {
+    @include carbon--type-style('productive-heading-02');
+    margin-bottom: carbon--rem(6px);
+    color: $text-01;
+  }
+  &--info {
+    @include carbon--type-style('label-01');
+    color: $text-05;
+  }
+  &--major {
+    margin-left: carbon--rem(8px);
+  }
+  &--time {
+    margin-left: carbon--rem(8px);
+  }
+  &--desc {
+    @include carbon--type-style('body-long-01');
+    color: $text-02;
+  }
+}

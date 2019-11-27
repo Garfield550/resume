@@ -1,6 +1,7 @@
 export { default as AspectRatio } from './aspect-ratio';
 export { default as Card } from './card';
 export { default as Container } from './container';
+export { default as EducationalInfo } from './educational-info';
 export { default as ExperienceRate } from './experience-rate';
 export { default as Footer } from './footer';
 export { default as Grid } from './grid';
