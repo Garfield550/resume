@@ -149,6 +149,13 @@ export default class IndexPage extends React.Component {
               </Card>
               <Card title='参与开源'>
                 <ProjectInfo
+                  name='DefinitelyTyped/DefinitelyTyped'
+                  href='https://github.com/DefinitelyTyped/DefinitelyTyped/commits?author=Garfield550'>
+                  在使用 Carbon-Components-React
+                  时发现部分组件缺少类型定义，便向 DefinitelyTyped
+                  提交了修补代码。
+                </ProjectInfo>
+                <ProjectInfo
                   name='NervJS/Taro'
                   href='https://github.com/NervJS/taro/commits?author=Garfield550'>
                   Taro 是由京东凹凸实验室开发的多端统一开发框架。自使用 Taro
