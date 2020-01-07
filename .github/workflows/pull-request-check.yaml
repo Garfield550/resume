@@ -1,0 +1,29 @@
+name: Pull request check
+
+on: pull_request
+
+jobs:
+  build-site:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x, 13.x]
+    steps:
+      - name: Setup Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: Setup Yarn
+        run: npm install -g yarn
+      - name: Checkout codes
+        uses: actions/checkout@v1
+      - name: Install dependencies
+        run: yarn install
+      - name: Lint code
+        run: yarn run lint
+      - name: Check TypeScrips typings
+        run: yarn run check
+      - name: Run test
+        run: yarn run test
+      - name: Build site
+        run: yarn run build
