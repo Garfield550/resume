@@ -9,6 +9,8 @@
 
 Built with [Carbon Design System](https://www.carbondesignsystem.com/) and [Gatsby](https://www.gatsbyjs.org/), hosted on [GitHub Pages](https://pages.github.com/).
 
+![build badge](https://img.shields.io/github/workflow/status/Garfield550/resume/Build%20resume%20site?label=Build&style=flat-square)
+
 ```text
 The MIT License (MIT)
 
