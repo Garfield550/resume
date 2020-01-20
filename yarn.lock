@@ -854,17 +854,17 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@carbon/icon-helpers@^10.5.0":
-  version "10.5.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.5.0.tgz#dca43b95ead0555d308a583983835804b869f810"
-  integrity sha512-ivKSCd3sl+Qm0PCLhGje7FAHnK8anX8Fml0rYgraIptU5JOASWrBKu14EUtGZwL9UP/tzszvufrzwO599cN9Qw==
+"@carbon/icon-helpers@^10.5.1":
+  version "10.5.1"
+  resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.5.1.tgz#a13426cf137eb6080cfe46405a567bd470b597a3"
+  integrity sha512-CPNDoDQYjCGg51WfI7w2Iwgz0S+svh0E3hWh3aybnDMhUPlikz8QFiWNpD55NSXAYe1C21CtRla6Rgxa1EkmNg==
 
-"@carbon/icons-react@^10.6.1", "@carbon/icons-react@^10.8.0":
-  version "10.8.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.8.0.tgz#f554a6df18e12f3da74eb5cf86820d5b7cb358cc"
-  integrity sha512-I5/KtwutKL57SOEj7kk6clMiGOp0i7m3BytTeIah+b0UHs2tcEDGvJQTUGHPqhcZzFAw77BZPRnZ6qM4cEZHfA==
+"@carbon/icons-react@^10.8.0", "@carbon/icons-react@^10.8.1":
+  version "10.8.1"
+  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.8.1.tgz#fcb3b14e669cff1c0a46c3d9f5a4809c85965a15"
+  integrity sha512-ETONJsiTHxGIuPk7G8aDm0tzJQjOsaobni32e0b/rSQLgOOsLalgf56Y47ascgWutKiTWg9lE0PK7G9SQHYthg==
   dependencies:
-    "@carbon/icon-helpers" "^10.5.0"
+    "@carbon/icon-helpers" "^10.5.1"
 
 "@commitlint/cli@^8.3.5":
   version "8.3.5"
