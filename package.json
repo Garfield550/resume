@@ -7,7 +7,7 @@
   "dependencies": {
     "@carbon/icons-react": "^10.8.1",
     "carbon-components": "^10.9.1",
-    "carbon-components-react": "^7.9.1",
+    "carbon-components-react": "^7.9.2",
     "classnames": "^2.2.6",
     "gatsby": "^2.18.25",
     "gatsby-image": "^2.2.39",
