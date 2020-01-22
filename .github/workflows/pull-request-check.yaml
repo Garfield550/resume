@@ -27,3 +27,12 @@ jobs:
         run: yarn run test
       - name: Build site
         run: yarn run build
+
+  auto-merge:
+    needs: build-site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auto merge
+        uses: ridedott/dependabot-auto-merge-action@master
+        with:
+          GITHUB_TOKEN: ${{ secrets.DEPENDABOT_TOKEN }}
