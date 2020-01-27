@@ -52,7 +52,7 @@
     "prettier": "^1.19.1",
     "stylelint": "^13.0.0",
     "stylelint-config-recommended-scss": "^4.1.0",
-    "stylelint-scss": "^3.13.0",
+    "stylelint-scss": "^3.14.0",
     "typescript": "^3.7.5"
   },
   "engines": {
