@@ -858,17 +858,17 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@carbon/icon-helpers@^10.5.1":
-  version "10.5.1"
-  resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.5.1.tgz#a13426cf137eb6080cfe46405a567bd470b597a3"
-  integrity sha512-CPNDoDQYjCGg51WfI7w2Iwgz0S+svh0E3hWh3aybnDMhUPlikz8QFiWNpD55NSXAYe1C21CtRla6Rgxa1EkmNg==
+"@carbon/icon-helpers@^10.5.2":
+  version "10.5.2"
+  resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.5.2.tgz#7975fc091206f4a423e812dada89519df52c2041"
+  integrity sha512-L3pK5YbXj2B/lXHb0NyHbGzOLpMBOP0uL9J4wARCr/NNvuyqJEkgj9JSSX7OAORkOk9NncOdpgCyKzjIBheU6w==
 
-"@carbon/icons-react@^10.8.1":
-  version "10.8.1"
-  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.8.1.tgz#fcb3b14e669cff1c0a46c3d9f5a4809c85965a15"
-  integrity sha512-ETONJsiTHxGIuPk7G8aDm0tzJQjOsaobni32e0b/rSQLgOOsLalgf56Y47ascgWutKiTWg9lE0PK7G9SQHYthg==
+"@carbon/icons-react@^10.8.1", "@carbon/icons-react@^10.8.2":
+  version "10.8.2"
+  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.8.2.tgz#f109b80457a4dcb23dd4d168662966ca229a3614"
+  integrity sha512-7XPbFk3DrVzfgjNmKXBT/qpTJ7bG4htGsp+CTt3X/kXrxPVd/VYUpeSErG1ozLNp/dSwzuPb8w0dQh1j9+HuDw==
   dependencies:
-    "@carbon/icon-helpers" "^10.5.1"
+    "@carbon/icon-helpers" "^10.5.2"
 
 "@commitlint/cli@^8.3.5":
   version "8.3.5"
@@ -2943,12 +2943,12 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30001020, can
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001023.tgz#b82155827f3f5009077bdd2df3d8968bcbcc6fc4"
   integrity sha512-C5TDMiYG11EOhVOA62W1p3UsJ2z4DsHtMBQtjzp3ZsUglcQn62WOUgW0y795c7A5uZ+GCEIvzkMatLIlAsbNTA==
 
-carbon-components-react@^7.9.2:
-  version "7.9.2"
-  resolved "https://registry.yarnpkg.com/carbon-components-react/-/carbon-components-react-7.9.2.tgz#28a1a9026aeaf8a69e56e1e4c89626bf1ffccad8"
-  integrity sha512-eO00Jpx1REWYOKap8DYNXajPBU0cUNa53Kryg6+N2bKY3oGlSjh/UPyAHpG+ffbS0PcmbpPZ2dNP+iDd0c0JcA==
+carbon-components-react@^7.9.3:
+  version "7.9.3"
+  resolved "https://registry.yarnpkg.com/carbon-components-react/-/carbon-components-react-7.9.3.tgz#664dda1c47077944e30a9de5bcdbd4c219954248"
+  integrity sha512-D6514Cgl3Iz5n9XH0Vp+3cYsSRaE4n9eXy6S9JpZPR1StDDrnGb/KIwH9vmz4gevpNFjLRo7To0E1R5hB3U3Fw==
   dependencies:
-    "@carbon/icons-react" "^10.8.1"
+    "@carbon/icons-react" "^10.8.2"
     classnames "2.2.6"
     downshift "^1.31.14"
     flatpickr "4.6.1"
