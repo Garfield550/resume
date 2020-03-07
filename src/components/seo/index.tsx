@@ -84,6 +84,7 @@ const SEO: React.FC<SeoProps> = ({
 SEO.propTypes = {
   description: PropTypes.string,
   lang: PropTypes.string,
+  // @ts-ignore
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
 };
