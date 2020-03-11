@@ -19,7 +19,7 @@
     "gatsby-plugin-sharp": "^2.4.11",
     "gatsby-plugin-typescript": "^2.2.0",
     "gatsby-plugin-web-font-loader": "^1.0.4",
-    "gatsby-source-filesystem": "^2.1.51",
+    "gatsby-source-filesystem": "^2.1.53",
     "gatsby-transformer-sharp": "^2.3.18",
     "prop-types": "^15.7.2",
     "react": "^16.13.0",
