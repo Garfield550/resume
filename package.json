@@ -9,7 +9,7 @@
     "carbon-components": "^10.9.3",
     "carbon-components-react": "^7.10.3",
     "classnames": "^2.2.6",
-    "gatsby": "^2.20.10",
+    "gatsby": "^2.20.12",
     "gatsby-image": "^2.3.1",
     "gatsby-plugin-canonical-urls": "^2.2.1",
     "gatsby-plugin-manifest": "^2.2.48",
