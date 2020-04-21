@@ -18,7 +18,7 @@ jobs:
       - name: Checkout codes
         uses: actions/checkout@v1
       - name: Install dependencies
-        run: yarn install
+        run: yarn install --frozen-lockfile
       - name: Lint code
         run: yarn run lint
       - name: Check TypeScrips typings
