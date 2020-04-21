@@ -937,10 +937,10 @@
   resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.7.0.tgz#7ad56c3f377bfaa687ccca0b0813011606d6cb28"
   integrity sha512-zIswRvP4JyZOq7+4A4/ro7K05xVNid/+HxBOSM1ApuqcXg1e1Vl9fg37+rGY/in9v7vVgsmA8s5Arlx1mJzPIw==
 
-"@carbon/icons-react@^10.10.0", "@carbon/icons-react@^10.9.3":
-  version "10.10.0"
-  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.10.0.tgz#b8d61709583be1310ca5f2bdabfbdab2c0f6a892"
-  integrity sha512-8H7RRUnvfZUlwad95Au+aR7CynIQwVcJ9OYEdEz4i16IdqFpWHql4RAb1jemLq6Q3kaHCpW4qKLDDLv8lWGu6g==
+"@carbon/icons-react@^10.10.0", "@carbon/icons-react@^10.10.1":
+  version "10.10.1"
+  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.10.1.tgz#7129a0ef4595fba7732f176bf7ec7538595f1611"
+  integrity sha512-SxkynQXWWatmomWiuQYSnOb5dE9zLQfMSv0VcRznPX3DptzO1xVlyAihojR7gM3tiubW/2AzhA56AVebYROYzQ==
   dependencies:
     "@carbon/icon-helpers" "^10.7.0"
 
@@ -3252,12 +3252,12 @@ caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000989, caniuse-lite@^1.0.30001039, can
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001045.tgz#a770df9de36ad6ca0c34f90eaa797a2dbbb1b619"
   integrity sha512-Y8o2Iz1KPcD6FjySbk1sPpvJqchgxk/iow0DABpGyzA1UeQAuxh63Xh0Enj5/BrsYbXtCN32JmR4ZxQTCQ6E6A==
 
-carbon-components-react@^7.10.3:
-  version "7.10.3"
-  resolved "https://registry.yarnpkg.com/carbon-components-react/-/carbon-components-react-7.10.3.tgz#667c5e1bce597123ccd6574204ab2b3dc721e4fc"
-  integrity sha512-L583T2qN5tFiYXHBv/iumw5vAE9T5OJ2l7LdEjY8/WUjzUdgA1iJD5tpYKL4U1ciO12zfWITlJBK8g39IupI/Q==
+carbon-components-react@^7.11.1:
+  version "7.11.1"
+  resolved "https://registry.yarnpkg.com/carbon-components-react/-/carbon-components-react-7.11.1.tgz#a6564849098c16df3a30e74c0bd0e78fb8035958"
+  integrity sha512-BafINpDUPMn0ofkVSUzTm2osWMV9Wk8GLjCtvRN+HIqryPvo5OC5cC4aeSfLTK+Tv+oK1EBYEKSjYAInp3bCVA==
   dependencies:
-    "@carbon/icons-react" "^10.9.3"
+    "@carbon/icons-react" "^10.10.1"
     classnames "2.2.6"
     downshift "^1.31.14"
     flatpickr "4.6.1"
