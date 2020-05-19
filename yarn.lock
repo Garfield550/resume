@@ -932,10 +932,10 @@
   resolved "https://registry.yarnpkg.com/@carbon/icon-helpers/-/icon-helpers-10.7.0.tgz#7ad56c3f377bfaa687ccca0b0813011606d6cb28"
   integrity sha512-zIswRvP4JyZOq7+4A4/ro7K05xVNid/+HxBOSM1ApuqcXg1e1Vl9fg37+rGY/in9v7vVgsmA8s5Arlx1mJzPIw==
 
-"@carbon/icons-react@^10.10.2":
-  version "10.10.2"
-  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.10.2.tgz#34b7bf45d85de208fd6283b29b4b0ef586e7106e"
-  integrity sha512-444eCnhtR8mVNbtu3N87c86B3XHM4Xb2W6aqeBToKsh9HBZ8v63Va3Mj/eQpWEDA2GjEGR2p2FMF0r6AAATr0A==
+"@carbon/icons-react@^10.10.2", "@carbon/icons-react@^10.11.0":
+  version "10.11.0"
+  resolved "https://registry.yarnpkg.com/@carbon/icons-react/-/icons-react-10.11.0.tgz#f25d0dcbe204aaa40ec973bdd10dda30f0b0ca7f"
+  integrity sha512-v1jZaQriW203wSlq7QdcILIuaVSsmo74asfe0MSa9nod4FqEb+sD6GHe85fgOoFnqvHKrJ+U1CSH/xd1GVC9xw==
   dependencies:
     "@carbon/icon-helpers" "^10.7.0"
 
@@ -3277,12 +3277,12 @@ caniuse-lite@^1.0.30001061:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001061.tgz#80ca87ef14eb543a7458e7fd2b5e2face3458c9f"
   integrity sha512-SMICCeiNvMZnyXpuoO+ot7FHpMVPlrsR+HmfByj6nY4xYDHXLqMTbgH7ecEkDNXWkH1vaip+ZS0D7VTXwM1KYQ==
 
-carbon-components-react@^7.11.3:
-  version "7.11.3"
-  resolved "https://registry.yarnpkg.com/carbon-components-react/-/carbon-components-react-7.11.3.tgz#3e81752fdf9921115f5849a6eaf763187bbe4d3d"
-  integrity sha512-wnTdaRF5GxF2BHK62HBPfqVe/6eURx+Z96/h++waGPT+KwOILQaZ609o1kLnIAbRSt2lbIYLojFc5ATBZyOmwA==
+carbon-components-react@^7.12.0:
+  version "7.12.0"
+  resolved "https://registry.yarnpkg.com/carbon-components-react/-/carbon-components-react-7.12.0.tgz#d41125e774fa40e5c5fbc1d536c1923111273f6b"
+  integrity sha512-zsVD9/Dh8Rgl9LOO7vltS8AXj14eCbmSddQrDMkHeq5JSpQWtIqUAI7A7sT2uAhmowi1hk8d0BAroyGzhLHzAg==
   dependencies:
-    "@carbon/icons-react" "^10.10.2"
+    "@carbon/icons-react" "^10.11.0"
     classnames "2.2.6"
     downshift "^1.31.14"
     flatpickr "4.6.1"
@@ -8890,13 +8890,6 @@ log-symbols@^2.2.0:
   dependencies:
     chalk "^2.0.1"
 
-log-symbols@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/log-symbols/-/log-symbols-3.0.0.tgz#f3a08516a5dea893336a7dee14d18a1cfdab77c4"
-  integrity sha512-dSkNGuI7iG3mfvDzUuYZyvk5dD9ocYCYzNU6CYDE6+Xqd+gwme6Z00NS3dUh8mq/73HaEtT7m6W+yUPtU6BZnQ==
-  dependencies:
-    chalk "^2.4.2"
-
 log-symbols@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/log-symbols/-/log-symbols-4.0.0.tgz#69b3cc46d20f448eccdb75ea1fa733d9e821c920"
@@ -11035,7 +11028,7 @@ postcss-value-parser@^3.0.0, postcss-value-parser@^3.3.0:
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-3.3.1.tgz#9ff822547e2893213cf1c30efa51ac5fd1ba8281"
   integrity sha512-pISE66AbVkp4fDQ7VHBwRNXzAAKJjw4Vw7nWI/+Q3vuly7SNfgYXvm6i5IgFylHGK5sP/xHAbB7N49OS4gWNyQ==
 
-postcss-value-parser@^4.0.2, postcss-value-parser@^4.0.3, postcss-value-parser@^4.1.0:
+postcss-value-parser@^4.0.2, postcss-value-parser@^4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/postcss-value-parser/-/postcss-value-parser-4.1.0.tgz#443f6a20ced6481a2bda4fa8532a6e55d789a2cb"
   integrity sha512-97DXOFbQJhk71ne5/Mt6cOu6yxsSfM0QGQyl0L25Gca4yGWEGJaig7l7gbCX623VqTBNGLRLaVUCnNkcedlRSQ==
@@ -11050,15 +11043,6 @@ postcss@^6.0.1, postcss@^6.0.23:
     supports-color "^5.4.0"
 
 postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.2, postcss@^7.0.21, postcss@^7.0.26, postcss@^7.0.27, postcss@^7.0.30, postcss@^7.0.7:
-  version "7.0.30"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.30.tgz#cc9378beffe46a02cbc4506a0477d05fcea9a8e2"
-  integrity sha512-nu/0m+NtIzoubO+xdAlwZl/u5S5vi/y6BCsoL8D+8IxsD3XvBS8X4YEADNIVXKVuQvduiucnRv+vPIqj56EGMQ==
-  dependencies:
-    chalk "^2.4.2"
-    source-map "^0.6.1"
-    supports-color "^6.1.0"
-
-postcss@^7.0.30:
   version "7.0.30"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.30.tgz#cc9378beffe46a02cbc4506a0477d05fcea9a8e2"
   integrity sha512-nu/0m+NtIzoubO+xdAlwZl/u5S5vi/y6BCsoL8D+8IxsD3XvBS8X4YEADNIVXKVuQvduiucnRv+vPIqj56EGMQ==
