@@ -1594,10 +1594,10 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
-"@types/carbon-components-react@^7.10.4":
-  version "7.10.4"
-  resolved "https://registry.yarnpkg.com/@types/carbon-components-react/-/carbon-components-react-7.10.4.tgz#079dbe588352943e9a75744e5fbbc0b329b85608"
-  integrity sha512-D5o1h2lxZkjdcuAIml4mkJ5SexIt/BrrxYkLYTgyD8zGZ7jy4lekBNsiY9JFLonkNKDCK67SnbvBJV7PNg0GnQ==
+"@types/carbon-components-react@^7.10.5":
+  version "7.10.5"
+  resolved "https://registry.yarnpkg.com/@types/carbon-components-react/-/carbon-components-react-7.10.5.tgz#236b6751aa6010d84521297f8b3df1004c320b6c"
+  integrity sha512-v/zig1PlLVRsjk4vA3tphF7BNYtdWLPD30ti++Wdb0QxNNMgd6QhKeMB1PtVV4sgLNoFPGQwlZC/86uaLIhSPA==
   dependencies:
     "@types/react" "*"
     flatpickr "4.6.1"

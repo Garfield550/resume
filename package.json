@@ -33,7 +33,7 @@
     "@babel/core": "^7.9.6",
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "@types/carbon-components-react": "^7.10.4",
+    "@types/carbon-components-react": "^7.10.5",
     "@types/carbon__icons-react": "^10.11.0",
     "@types/classnames": "^2.2.9",
     "@types/node": "^14.0.5",
