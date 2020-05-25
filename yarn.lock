@@ -1602,10 +1602,10 @@
     "@types/react" "*"
     flatpickr "4.6.1"
 
-"@types/carbon__icons-react@^10.10.0":
-  version "10.10.0"
-  resolved "https://registry.yarnpkg.com/@types/carbon__icons-react/-/carbon__icons-react-10.10.0.tgz#eb3060bb659e73103205dfb53f0202bf6cd05940"
-  integrity sha512-Fu7wWj/PAi3u7s74PVf0JDZWD1blZmXIuN07k/5WLNssBsqXNpomvBI6/EGNILKW33B+uqyhE2YDlBDs3TKr8w==
+"@types/carbon__icons-react@^10.11.0":
+  version "10.11.0"
+  resolved "https://registry.yarnpkg.com/@types/carbon__icons-react/-/carbon__icons-react-10.11.0.tgz#ad70adefede81da2e76d9db0fc14e47e6dcd368f"
+  integrity sha512-PdM56Q/ktP0rLCCtN5TGILptSCXaMbSOkzFuGl2B5PyShHMAAi7LyS/nuX6M36XtiIS9ua5JooQb1/bxGik2bQ==
 
 "@types/classnames@^2.2.9":
   version "2.2.10"
@@ -6113,7 +6113,7 @@ gatsby-cli@^2.12.34:
     ink "^2.7.1"
     ink-spinner "^3.0.1"
 
-gatsby-core-utils@^1.3.2, gatsby-core-utils@^1.3.3:
+gatsby-core-utils@^1.3.3:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.3.3.tgz#f721600994c91743f3815e0c2c54f3f3947dbd62"
   integrity sha512-kRcC7Fsn7puGeJERK5EZ3x4drPOnnYNlFygl1tEbpFIKdOhsWRlRF8es7uaqwyZBtBYJHVHHjCyJszRiJRZ5Sw==
