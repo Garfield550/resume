@@ -36,7 +36,7 @@
     "@types/carbon-components-react": "^7.10.5",
     "@types/carbon__icons-react": "^10.11.0",
     "@types/classnames": "^2.2.9",
-    "@types/node": "^14.0.11",
+    "@types/node": "^14.0.12",
     "@types/react": "^16.9.35",
     "@types/react-dom": "^16.9.8",
     "@types/react-helmet": "^6.0.0",
