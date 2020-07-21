@@ -6,7 +6,7 @@
   "author": "Garfield Lee <me@550.moe>",
   "dependencies": {
     "@carbon/icons-react": "^10.14.0",
-    "carbon-components": "^10.15.0",
+    "carbon-components": "^10.16.0",
     "carbon-components-react": "^7.16.0",
     "carbon-icons": "^7.0.7",
     "classnames": "^2.2.6",
