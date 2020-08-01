@@ -1822,10 +1822,10 @@
     "@types/react" "*"
     flatpickr "4.6.1"
 
-"@types/carbon__icons-react@^10.11.0":
-  version "10.11.0"
-  resolved "https://registry.yarnpkg.com/@types/carbon__icons-react/-/carbon__icons-react-10.11.0.tgz#ad70adefede81da2e76d9db0fc14e47e6dcd368f"
-  integrity sha512-PdM56Q/ktP0rLCCtN5TGILptSCXaMbSOkzFuGl2B5PyShHMAAi7LyS/nuX6M36XtiIS9ua5JooQb1/bxGik2bQ==
+"@types/carbon__icons-react@^10.14.0":
+  version "10.14.0"
+  resolved "https://registry.yarnpkg.com/@types/carbon__icons-react/-/carbon__icons-react-10.14.0.tgz#25cdd46739ea7b8c834e1155a22e115b5acdeef8"
+  integrity sha512-NbF/vJhQXzq4x9ZowQfnosLE8D95lqWMzrPnVt+oMrwX/rUaott08eM85mxu0I53Sxvo3NvHKlo8iV9OF2RvvQ==
 
 "@types/classnames@^2.2.9":
   version "2.2.10"
@@ -11276,7 +11276,7 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.2, postcss@^7.0.21
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-potrace@^2.1.6, potrace@^2.1.8:
+potrace@^2.1.8:
   version "2.1.8"
   resolved "https://registry.yarnpkg.com/potrace/-/potrace-2.1.8.tgz#50f6fba92e1e39ddef6f979b0a0f841809e0acf2"
   integrity sha512-V9hI7UMJyEhNZjM8CbZaP/804ZRLgzWkCS9OOYnEZkszzj3zKR/erRdj0uFMcN3pp6x4B+AIZebmkQgGRinG/g==
