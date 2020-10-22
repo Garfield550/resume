@@ -7338,10 +7338,10 @@ gatsby-plugin-sass-resources@^2.0.0:
     sass-resources-loader "^1.3.3"
     webpack "^4.0.0"
 
-gatsby-plugin-sass@^2.3.20:
-  version "2.3.20"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-2.3.20.tgz#aa721947947c82ba2822ab8238deaff0c5be2fad"
-  integrity sha512-vVb5xEXcWVKIYpDN7V3nVNrJamLzmz3QkaLQNI+cA47bAqJg9mrseShTN4wrvi54DGcBcGo3JaZfASCHZU5rbw==
+gatsby-plugin-sass@^2.3.21:
+  version "2.3.21"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-sass/-/gatsby-plugin-sass-2.3.21.tgz#2ea32da265e8ba2c97ea97f89db85599e624ed63"
+  integrity sha512-QBqBsGUbezMy2b0rAZK1di82cSCLUt8ZvtdUoDvv3twih9jCg9FxMR/Stzl4aUplWPELrargmF5M8upA2ztMQw==
   dependencies:
     "@babel/runtime" "^7.11.2"
     sass-loader "^7.3.1"
@@ -7370,7 +7370,7 @@ gatsby-plugin-sharp@^2.6.43:
     svgo "1.3.2"
     uuid "3.4.0"
 
-gatsby-plugin-typescript@^2.4.23, gatsby-plugin-typescript@^2.4.24:
+gatsby-plugin-typescript@^2.4.24:
   version "2.4.24"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-typescript/-/gatsby-plugin-typescript-2.4.24.tgz#c644d3919bd7460fc9b926b768cdf6c2f2f7b4e3"
   integrity sha512-BVfLYMgPafzY+bLQs7GaMLhZfAeEQPTcc36RhPL4H8/goun159Vp+KEVR7KXd3xi/a7ZgWX8YhnrcfLDbwCuwA==
