@@ -3681,10 +3681,10 @@ caniuse-lite@^1.0.30001109:
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001122.tgz#2c8ff631330d986a07a7ba7125cce77a1373b475"
   integrity sha512-pxjw28CThdrqfz06nJkpAc5SXM404TXB/h5f4UJX+rrXJKE/1bu/KAILc2AY+O6cQIFtRjV9qOR2vaEp9LDGUA==
 
-carbon-components-react@^7.23.1:
-  version "7.23.1"
-  resolved "https://registry.yarnpkg.com/carbon-components-react/-/carbon-components-react-7.23.1.tgz#e7bca776708401bedf8243e0bd3207a642cf4796"
-  integrity sha512-Pb3W1p9enbODrf5nlsRXXDiWCvEXZMhIMfnA2LBtoz3LQvsJ7+M3OCPup0tDslIxK1XKpdbosUvDqDHS9d+3fw==
+carbon-components-react@^7.23.2:
+  version "7.23.2"
+  resolved "https://registry.yarnpkg.com/carbon-components-react/-/carbon-components-react-7.23.2.tgz#9d88800048e1fda705083a7b062fff5f361eeaa5"
+  integrity sha512-JKqR9JD55kKNtITWYwtSYdcjg+c5QE6rYBDfdJGdbOCxxHv5KFLTwWJ4jD6rD8h2KM45rPjDaIy+c35GkSluYQ==
   dependencies:
     "@carbon/icons-react" "^10.20.0"
     classnames "2.2.6"
