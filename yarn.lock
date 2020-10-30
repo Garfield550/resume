@@ -1891,10 +1891,10 @@
     "@types/node" "*"
     "@types/responselike" "*"
 
-"@types/carbon-components-react@^7.22.0":
-  version "7.22.0"
-  resolved "https://registry.yarnpkg.com/@types/carbon-components-react/-/carbon-components-react-7.22.0.tgz#d403b0963af755758011598054918ede50e45562"
-  integrity sha512-35XkCrIZ0IhmeuZFGp+hFIALclNW/p5HB45sxjaK3m48TRtDwC2Ei627PsRirkmLbdl+CaGrGLYIQmj/U6lhyQ==
+"@types/carbon-components-react@^7.23.0":
+  version "7.23.0"
+  resolved "https://registry.yarnpkg.com/@types/carbon-components-react/-/carbon-components-react-7.23.0.tgz#a07c34ecc5c670a1601ddfefe8ad9feb7948db79"
+  integrity sha512-9jSk1Ud76f26QM+Cf4qjKvcCGZ69YtU5EzeEwl3BowK+tCgfhoZ6zPCTwOJx2H6yxGXInLap7aA6tWflSB2U7w==
   dependencies:
     "@types/react" "*"
     flatpickr "4.6.1"
