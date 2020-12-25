@@ -1859,10 +1859,10 @@
     "@types/node" "*"
     "@types/responselike" "*"
 
-"@types/carbon-components-react@^7.24.2":
-  version "7.24.2"
-  resolved "https://registry.yarnpkg.com/@types/carbon-components-react/-/carbon-components-react-7.24.2.tgz#c2a9e27e1be16b39db9cf15a9a69f2042e6c726b"
-  integrity sha512-DAbUOTsQYbX6UVX+KhgoKftQo0dgCkNzvwf6GDng5C4QnbUUGxEo3YtSw6NYQ2TJ8/xKAsEsooshipZwTFtn8g==
+"@types/carbon-components-react@^7.25.0":
+  version "7.25.0"
+  resolved "https://registry.yarnpkg.com/@types/carbon-components-react/-/carbon-components-react-7.25.0.tgz#2a8274daf2757ac34696f6546dcb0e9842da9f70"
+  integrity sha512-6oOfldmMwuqIHMW5haDojI7N83lg/U3GUDcNdBFTQP7jIdLfyGZ95ML7k+W7FOH6Ck7FjtIvFbKtezwl7RaOjw==
   dependencies:
     "@types/react" "*"
     flatpickr "4.6.1"
@@ -6694,7 +6694,7 @@ gatsby-cli@^2.16.2:
     yoga-layout-prebuilt "^1.9.6"
     yurnalist "^1.1.2"
 
-gatsby-core-utils@^1.7.0, gatsby-core-utils@^1.7.1:
+gatsby-core-utils@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/gatsby-core-utils/-/gatsby-core-utils-1.7.1.tgz#7e7e6596c228d580ed8ce4a3fc04c56f103cae3f"
   integrity sha512-hnzQCixp2C4opmSgjido/CQwSt4FL3CcmGwq6fK3PVPTT3hLPz7rvuTMQIUlR8BJjGYai6i5f6V3wfkCJ3VTgQ==
@@ -6965,7 +6965,7 @@ gatsby-source-filesystem@^2.8.1:
     valid-url "^1.0.9"
     xstate "^4.14.0"
 
-gatsby-telemetry@^1.7.0, gatsby-telemetry@^1.7.1:
+gatsby-telemetry@^1.7.1:
   version "1.7.1"
   resolved "https://registry.yarnpkg.com/gatsby-telemetry/-/gatsby-telemetry-1.7.1.tgz#8e05dc2b386218f7eb29f8d597fcec19dc96b659"
   integrity sha512-kLIjpspvnoCD7+5ybAv5uc/zc4NK8EMwlKEBHPxx7RJBEK220deD1ixtNEcO7nsDwH0Y+eE8Yom8qOPbr0F6Mw==
