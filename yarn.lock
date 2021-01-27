@@ -1897,10 +1897,10 @@
     "@types/react" "*"
     flatpickr "4.6.1"
 
-"@types/carbon__icons-react@^10.23.0":
-  version "10.23.0"
-  resolved "https://registry.yarnpkg.com/@types/carbon__icons-react/-/carbon__icons-react-10.23.0.tgz#0648b1fd26ca937ab281fb4b0756e26d8d074f27"
-  integrity sha512-2IIXIgq3amoBIMge7XmUMzIH/DcW4XRCZbVzgVAWvmGU386n5MukWajZbg89Dh0S3zq/5utCH2rze6qTxsjlzA==
+"@types/carbon__icons-react@^10.24.0":
+  version "10.24.0"
+  resolved "https://registry.yarnpkg.com/@types/carbon__icons-react/-/carbon__icons-react-10.24.0.tgz#ec57a56c0dbb043132041ae20e4fe09c068b0138"
+  integrity sha512-cpsykaZQqh9oz43c/wxXhw5Z+0ngqB4nbf8DEAYS0h6BWVAor29439k2D5bRakyVzNj1sHbjnqLQ+rhFXcrJUg==
 
 "@types/classnames@^2.2.11":
   version "2.2.11"
